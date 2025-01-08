@@ -16,4 +16,4 @@ jobs:
         with:
           aqua_version: v2.42.2
       - run: container-structure-test version
-      - run: container-structure-test test -c container-structure-test.yaml --image debian:slim
+      - run: container-structure-test test --config container-structure-test.yaml --image debian:12-slim
