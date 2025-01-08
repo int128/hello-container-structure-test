@@ -1,7 +1,7 @@
 schemaVersion: 2.0.0
 
 fileExistenceTests:
-  - name: "Root"
+  - name: "Root directory permissions"
     path: "/"
     shouldExist: true
     permissions: "drwxr-xr-x"
